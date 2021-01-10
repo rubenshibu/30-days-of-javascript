@@ -7,4 +7,4 @@
 
 Text to speech Converter 
 [Go to Day 1](https://github.com/rubenshibu/30-days-of-javascript/blob/main/Day%201/README.md)
-<hr>
+
