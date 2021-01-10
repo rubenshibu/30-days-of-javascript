@@ -51,15 +51,21 @@ const speak = () => {
     //voice
 
     const selectedVoice = voiceSelect.selectedOptions[0].getAttribute(
-      'data-name'
+      "data-name"
     );
 
     //looping voices
 
-    voices.forEach(voice => {
-        if(voice.name === selectedVoice){
-            speakText.voice = voice;
-        }
-    })
+    voices.forEach((voice) => {
+      if (voice.name === selectedVoice) {
+        speakText.voice = voice;
+      }
+    });
+    //setting pitch and rate
+
+    speakText.rate = rate.value;
+    speakText.pitch = pitch.value;
+    //speak
+    synth.speak(speakText);
   }
 };
