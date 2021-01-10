@@ -1,7 +1,7 @@
-.chat-img{
+
+img{
+    align-self: center;
     width: 150px;
     height: auto;
-    display: flex;
-   margin-left: 50%;
-   margin-top: 20%;
+    margin-top: 10%;
 }
