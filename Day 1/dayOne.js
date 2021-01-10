@@ -1,97 +1,3 @@
-// const synth = window.speechSynthesis;
-
-// const textForm = document.querySelector("form");
-// const textInput = document.querySelector("#text-input");
-// const voiceSelect = document.querySelector("#voice-select");
-// const rate = document.querySelector("#rate");
-// const rateValue = document.querySelector("#rate-value");
-// const pitch = document.querySelector("#pitch");
-// const pitchValue = document.querySelector("#pitchValue");
-
-// let voices = [];
-
-// const getVoices = () => {
-//   voices = synth.getVoices();
-
-//   voices.forEach((voice) => {
-//     const option = document.createElement("option");
-
-//     option.textContent = voice.name + "(" + voice.lang + ")";
-
-//     option.setAttribute("data-lang", voice.lang);
-//     option.setAttribute("data-name", voice.name);
-//     voiceSelect.appendChild(option);
-//   });
-// };
-
-// getVoices();
-
-// if (synth.onvoiceschanged !== undefined) {
-//   synth.onvoiceschanged = getVoices;
-// }
-
-// //SPEAKING
-
-// const speak = () => {
-//   if (synth.speaking) {
-//     console.error("already speaking");
-//     return;
-//   }
-//   if (textInput.value !== "") {
-//     const speakText = new SpeechSynthesisUtterance(textInput.value);
-
-//     speakText.onend = (e) => {
-//       console.log("sepeaked.............out");
-//     };
-
-//     speakText.onerror = (e) => {
-//       console.error("error happend");
-//     };
-
-//     //voice
-
-//     const selectedVoice = voiceSelect.selectedOptions[0].getAttribute(
-//       "data-name"
-//     );
-
-//     //looping voices
-
-//     voices.forEach((voice) => {
-//       if (voice.name === selectedVoice) {
-//         speakText.voice = voice;
-//       }
-//     });
-//     //setting pitch and rate
-
-//     speakText.rate = rate.value;
-//     speakText.pitch = pitch.value;
-//     //speak
-//     synth.speak(speakText);
-//   }
-// };
-
-
-// //event listers 
-
-// textForm.addEventListener('submit', e=>{
-//     e.preventDefault();
-//     speak();
-//     textInput.blur();
-// });
-
-
-// //rate changeing
-
-// rate.addEventListener('change', e => rateValue.textContent = rate.value);
-
-// pitch.addEventListener('change', e => pitchValue.textContent = pitch.value);
-
-
-// //voice
-
-// voiceSelect.addEventListener('change', e => speak());
-
-
 const synth = window.speechSynthesis;
 
 // DOM Elements
@@ -104,11 +10,8 @@ const pitch = document.querySelector('#pitch');
 const pitchValue = document.querySelector('#pitch-value');
 const body = document.querySelector('body');
 
-//Browser identifier
-// Firefox 1.0+
-var isFirefox = typeof InstallTrigger !== 'undefined';
 
-// Chrome 1+
+var isFirefox = typeof InstallTrigger !== 'undefined';
 var isChrome = !!window.chrome && !!window.chrome.webstore;
 
 // Init voices array
@@ -119,25 +22,16 @@ const getVoices = () => {
 
   // Loop through voices and create an option for each one
   voices.forEach(voice => {
-    // Create option element
+   
     const option = document.createElement('option');
-    // Fill option with voice and language
+    
     option.textContent = voice.name + '(' + voice.lang + ')';
 
-    // Set needed option attributes
     option.setAttribute('data-lang', voice.lang);
     option.setAttribute('data-name', voice.name);
     voiceSelect.appendChild(option);
   });
 };
-
-//Line 35, 36 causes voice list duplication
-/*getVoices();
-if (synth.onvoiceschanged !== undefined) {
-  synth.onvoiceschanged = getVoices;
-}*/
-
-//Fix for duplication, run code depending on the browser
 if (isFirefox) {
     getVoices();
 }
@@ -194,20 +88,15 @@ const speak = () => {
   }
 };
 
-// EVENT LISTENERS
 
-// Text form submit
 textForm.addEventListener('submit', e => {
   e.preventDefault();
   speak();
   textInput.blur();
 });
 
-// Rate value change
 rate.addEventListener('change', e => (rateValue.textContent = rate.value));
 
-// Pitch value change
 pitch.addEventListener('change', e => (pitchValue.textContent = pitch.value));
 
-// Voice select change
 voiceSelect.addEventListener('change', e => speak());
