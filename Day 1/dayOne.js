@@ -38,6 +38,22 @@ if(synth.onvoiceschanged !== undefined){
 
 
 const speak = () => {
-    
+    if(synth.speaking){
+        console.error('already speaking');
+        return;
+    }
+    if(textInput.value !== ''){
+
+        const speakText = new SpeechSynthesisUtterance(textInput.value);
+
+        speakText.onend = e =>{
+            console.log("sepeaked.............out");
+        }
+
+
+        speakText.onerror = e => {
+            console.error("error happend");
+        }
+    }
 }
 
