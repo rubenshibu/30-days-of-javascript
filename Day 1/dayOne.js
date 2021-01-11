@@ -1,6 +1,5 @@
 const synth = window.speechSynthesis;
 
-// DOM Elements
 const textForm = document.querySelector('form');
 const textInput = document.querySelector('#text-input');
 const voiceSelect = document.querySelector('#voice-select');
@@ -14,13 +13,13 @@ const body = document.querySelector('body');
 var isFirefox = typeof InstallTrigger !== 'undefined';
 var isChrome = !!window.chrome && !!window.chrome.webstore;
 
-// Init voices array
+
 let voices = [];
 
 const getVoices = () => {
   voices = synth.getVoices();
 
-  // Loop through voices and create an option for each one
+  
   voices.forEach(voice => {
    
     const option = document.createElement('option');
@@ -43,21 +42,18 @@ if (isChrome) {
 
 // Speak
 const speak = () => {
-  // Check if speaking
   if (synth.speaking) {
     console.error('Already speaking...');
     return;
   }
   if (textInput.value !== '') {
-    // Add background animation
-    body.style.background = '#141414 url(img/wave.gif)';
+    body.style.background = 'url(img/wave.gif)';
     body.style.backgroundRepeat = 'repeat-x';
     body.style.backgroundSize = '100% 100%';
 
-    // Get speak text
     const speakText = new SpeechSynthesisUtterance(textInput.value);
 
-    // Speak end
+
     speakText.onend = e => {
       console.log('Done speaking...');
       body.style.background = '#141414';
@@ -73,7 +69,7 @@ const speak = () => {
       'data-name'
     );
 
-    // Loop through voices
+   
     voices.forEach(voice => {
       if (voice.name === selectedVoice) {
         speakText.voice = voice;
