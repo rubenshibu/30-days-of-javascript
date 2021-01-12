@@ -13,3 +13,5 @@ Text to speech Converter
 
 A Simple Calculator 
 [Go to day 2](https://github.com/rubenshibu/30-days-of-javascript/blob/main/Day%202/README.md)
+
+<h1> DAY 3 </h1>
