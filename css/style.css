@@ -1,6 +1,6 @@
 /* Please don't edit this file*/
 :root {
-  --primary-color: #ffa967;
+  --primary-color: #00ffdd;
   --padding-main: 20px;
   --primary-font: "Montserrat", sans-serif;
   --secondary-font: "Anton", sans-serif;
@@ -158,4 +158,11 @@ footer {
 
 .creater-name h2 {
   font-size: 20px;
+}
+
+@media only screen and (max-width: 600px) {
+  .content-header h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
 }
