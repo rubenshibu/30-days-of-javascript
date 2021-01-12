@@ -1,5 +1,7 @@
 # 30-days-of-javascript
 
+[live website](https://rubenshibu.github.io/30-days-of-javascript/)
+
 30 days 30 projects
 <hr>
 
@@ -15,3 +17,5 @@ A Simple Calculator
 [Go to day 2](https://github.com/rubenshibu/30-days-of-javascript/blob/main/Day%202/README.md)
 
 <h1> DAY 3 </h1>
+
+[Go to day 3](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%203/README.md)
