@@ -18,4 +18,5 @@ A Simple Calculator
 
 <h1> DAY 3 </h1>
 
+simon-game 
 [Go to day 3](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%203/README.md)
