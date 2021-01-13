@@ -24,4 +24,5 @@ simon-game
 
 <h1> Day 4 </h1>
 
-[]()
+Drum-Kit
+[Go to day 4](https://github.com/rubenshibu/30-days-of-javascript/tree/main/src/Day%204)
