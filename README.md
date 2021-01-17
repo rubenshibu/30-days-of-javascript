@@ -26,3 +26,13 @@ simon-game
 
 Drum-Kit
 [Go to day 4](https://github.com/rubenshibu/30-days-of-javascript/tree/main/src/Day%204)
+
+<h1> Day 5 </h1>
+
+Simple Dice Game
+[Go to Day 5](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%205/README.md)
+
+<h1> Day 6 </h1>
+
+Jump Game
+[Go to Day 6](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%206/README.md)
