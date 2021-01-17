@@ -36,3 +36,8 @@ Simple Dice Game
 
 Jump Game
 [Go to Day 6](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%206/README.md)
+
+<h1> Day 7 </h1>
+
+key finder
+[Go to Day 7]()
