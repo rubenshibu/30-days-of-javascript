@@ -44,5 +44,5 @@ key finder
 
 <h1> Day 8 </h1>
 
-key finder
+Tic Tac Toe
 [Go to Day 8]()
