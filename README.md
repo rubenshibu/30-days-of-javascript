@@ -41,3 +41,8 @@ Jump Game
 
 key finder
 [Go to Day 7]()
+
+<h1> Day 8 </h1>
+
+key finder
+[Go to Day 8]()
