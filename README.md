@@ -50,9 +50,9 @@ Tic Tac Toe
 <h1> Day 9 </h1>
 
 Tap Counter
-[Go to Day 9]()
+[Go to Day 9](https://github.com/rubenshibu/30-days-of-javascript/tree/main/src/Day%209)
 
-<h1> Day 9 </h1>
+<h1> Day 10 </h1>
 
 Tic Tac Toe
 [Go to Day 8]()
