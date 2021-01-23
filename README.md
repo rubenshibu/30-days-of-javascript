@@ -49,6 +49,11 @@ Tic Tac Toe
 
 <h1> Day 9 </h1>
 
+Tap Counter
+[Go to Day 9]()
+
+<h1> Day 9 </h1>
+
 Tic Tac Toe
 [Go to Day 8]()
 
