@@ -40,7 +40,7 @@ Jump Game
 <h1> Day 7 </h1>
 
 key finder
-[Go to Day 7]()
+[Go to Day 7](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%207/README.md)
 
 <h1> Day 8 </h1>
 
