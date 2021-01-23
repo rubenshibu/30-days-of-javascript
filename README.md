@@ -45,7 +45,7 @@ key finder
 <h1> Day 8 </h1>
 
 Tic Tac Toe
-[Go to Day 8]()
+[Go to Day 8](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%208/README.md)
 
 <h1> Day 9 </h1>
 
