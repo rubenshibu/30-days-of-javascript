@@ -5,7 +5,7 @@
 }
 
 body {
-	background-color: #3B3B98;
+	background-color: #9b9bac;
 	color: #fff;
 	display: flex;
 	font-family: 'Muli', sans-serif;
@@ -30,7 +30,7 @@ input[type=checkbox] {
 }
 
 .container {
-	background-color: #23235B;
+	background-color: #2f2f38;
 	box-shadow: 0px 2px 10px rgba(255, 255, 255, 0.2);
 	padding: 20px;
 	width: 350px;
@@ -215,7 +215,7 @@ input[type=checkbox] {
 
 .floating-btn:hover {
 	background-color: #ffffff;
-	color: #001F61;
+	color: #898d96;
 }
 
 .floating-btn:focus {
