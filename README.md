@@ -54,6 +54,6 @@ Tap Counter
 
 <h1> Day 10 </h1>
 
-Tic Tac Toe
-[Go to Day 8]()
+Random Password Generator
+[Go to Day 10]()
 
