@@ -55,5 +55,5 @@ Tap Counter
 <h1> Day 10 </h1>
 
 Random Password Generator
-[Go to Day 10]()
+[Go to Day 10](https://github.com/rubenshibu/30-days-of-javascript/blob/main/src/Day%2010/README.md)
 
