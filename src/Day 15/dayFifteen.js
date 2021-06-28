@@ -1,11 +1,4 @@
-/***** 
-
-Implemented using I2Djs framework
-
-https://nswamy14.gitbook.io/i2djs/
-https://github.com/I2Djs/I2Djs   
-
-****/
+vanessa veracruz
 
 var renderer_ = i2d.svgLayer('#MySVG', { });
 var parallelChain = i2d.chain.parallelChain().loop(10)
