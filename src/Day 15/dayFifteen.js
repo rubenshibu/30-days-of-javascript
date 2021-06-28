@@ -1,5 +1,3 @@
-vanessa veracruz
-
 var renderer_ = i2d.svgLayer('#MySVG', { });
 var parallelChain = i2d.chain.parallelChain().loop(10)
 var circlesCount = 100
