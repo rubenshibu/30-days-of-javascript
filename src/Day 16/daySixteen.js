@@ -48,10 +48,10 @@ function drawFace(ctx, radius){
 function drawNumbers(ctx, radius) {
     var ang;
     var num;
-    ctx.font = radius*0.15 + "px arial"; //set font at 15% of radius
-    ctx.textBaseline = "middle"; //set text alignment to middle
-    ctx.textAlign = "center"; //set text alignment to center
-    for(num=1; num < 13; num++){ //calculate the print position for each number
+    ctx.font = radius*0.15 + "px arial"; 
+    ctx.textBaseline = "middle"; 
+    ctx.textAlign = "center"; 
+    for(num=1; num < 13; num++){ 
         ang = num *Math.PI /6;
         ctx.rotate(ang);
         ctx.translate(0, -radius*0.85);
@@ -70,14 +70,16 @@ function drawTime(ctx, radius){
     var second = now.getSeconds();
     //hour
     hour = hour%12;
-    //calculate angle of hour hand
+
     hour = (hour*Math.PI/6)+(minute*Math.PI/(6*60))+(second*Math.PI/(360*60));
-    //make hour hand 50% of canvas's radius
+
     drawHand(ctx, hour, radius*0.5, radius*0.07);
     //minute
     //calculate angle of minute hand
+
     minute=(minute*Math.PI/30)+(second*Math.PI/(30*60));
     //make minute hand 80% of canvas's radius
+    
     drawHand(ctx, minute, radius*0.8, radius*0.07);
     //second
     //calculate angle of second hand
