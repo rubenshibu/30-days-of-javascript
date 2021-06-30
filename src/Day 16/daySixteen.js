@@ -1,4 +1,4 @@
-//create a canvas object fro HTML element
+//Createing an object for HTML element
 var canvas = document.getElementById('canvas');
 //create a 2d drawing object
 var ctx = canvas.getContext('2d');
