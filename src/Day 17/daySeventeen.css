@@ -1,5 +1,5 @@
 body{
-    background: lightskyblue;
+    background: rgb(112, 127, 136);
 }
 
 #canvas{
@@ -7,10 +7,11 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: rgb(85, 58, 243);
+    background: rgb(243, 58, 197);
     width: 700px;
     height: 300px;
     margin: 50px auto;
+    margin-top: 500px;
 }
 
 #primary-number, #secondary-number{
