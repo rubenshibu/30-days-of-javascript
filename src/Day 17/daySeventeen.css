@@ -7,7 +7,7 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    background: yellow;
+    background: rgb(85, 58, 243);
     width: 700px;
     height: 300px;
     margin: 50px auto;
@@ -48,7 +48,8 @@ button{
     width: 100px;
     height: 35px;
     margin: 5px;
-    background: red;
-    color: white;
+    background: rgb(58, 145, 195);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
     border: 1px solid lightgrey;
 }
