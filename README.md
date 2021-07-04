@@ -61,7 +61,7 @@ Random Password Generator
 
 <h1> Day 12 </h1>
 
-<h2> Day 13 </h1>
+<h1> Day 13 </h1>
 
 <h1> Day 14 </h1>
 
