@@ -53,9 +53,9 @@ body {
 }
 
 .floating-text {
-	background-color: #001F61;
+	background-color: #d4e2ff;
 	border-radius: 10px 10px 0 0;
-	color: #fff;
+	color: rgb(0, 0, 0);
 	font-family: 'Muli';
 	padding: 7px 15px;
 	position: fixed;
