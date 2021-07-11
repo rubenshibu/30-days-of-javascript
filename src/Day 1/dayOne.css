@@ -23,5 +23,23 @@ body {
   
   html,
   body {
-    height: 100%;
+    margin-top: -40px;
+    height: 90%;
   }
+
+  .floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.floating-text {
+	color: #FF7500;
+	text-decoration: none;
+}
