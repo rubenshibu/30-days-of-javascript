@@ -8,6 +8,23 @@ body {
     height: 550px;
     margin: 20px auto;
 }
+.floating-text {
+	background-color: #001F61;
+	border-radius: 10px 10px 0 0;
+	color: #fff;
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.floating-text a {
+	color: #FF7500;
+	text-decoration: none;
+}
+
 
 #calculator {
     width: 320px;
