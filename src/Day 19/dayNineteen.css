@@ -9,7 +9,7 @@
 .bulb-off{
     width: 265px;
     height: 400px;
-    background: url('https://github.com/JS-Beginners/lightbulb-effect-project/blob/main/lightoff.png') no-repeat;
+    background: url('./lightoff.png') no-repeat;
     margin: auto;
 }
 
