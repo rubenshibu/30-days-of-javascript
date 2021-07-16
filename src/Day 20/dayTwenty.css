@@ -4,7 +4,7 @@ body {
 }
 
 #home {
-    background: linear-gradient(#eee, #aaa);
+    background: linear-gradient(rgb(129, 126, 126), rgb(102, 79, 79));
     background: -webkit-linear-gradient(top, #eee, #aaa);
     background: -ms-linear-gradient(top, #eee, #aaa);
     background: -moz-linear-gradient(top, #eee, #aaa);
