@@ -1,10 +1,3 @@
-/*
- * > Coded By Thomas Hj
- * > 31102016
- *
- * > #31
- */
-
 // Word selection
 // New word = ["Word name", "Hint"]
 var word = [
