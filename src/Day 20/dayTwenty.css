@@ -30,9 +30,9 @@ body {
     background: -webkit-linear-gradient(top, #afa, #6f6);
     background: -ms-linear-gradient(top, #afa, #6f6);
     background: -moz-linear-gradient(top, #afa, #6f6);
-    background: -o-linear-gradient(top, #afa, #6f6);
+    background: -o-linear-gradient(top, #afa, rgb(123, 141, 123));
     border-radius: 2px;
-    box-shadow: 0 0 0 5px #090;
+    box-shadow: 0 0 0 5px rgb(94, 94, 94);
     display: table;
     font-weight: bold;
     padding: 10px 20px;
