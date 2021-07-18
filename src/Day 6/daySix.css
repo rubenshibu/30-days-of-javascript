@@ -1,81 +1,80 @@
 * {
-    padding: 0;
-    margin: 0;
-    overflow-x: hidden;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
 }
 
 .game {
-    /* margin-top: 25%; */
-    width: 700px;
-    height: 200px;
-    border: 1px solid black;
-    margin: 15% auto auto;
+  /* margin-top: 25%; */
+  width: 700px;
+  height: 200px;
+  border: 1px solid black;
+  margin: 15% auto auto;
 }
 
 #character {
-    width: 20px;
-    height: 50px;
-    background-color: red;
-    position: relative;
-    top: 150px;
+  width: 20px;
+  height: 50px;
+  background-color: red;
+  position: relative;
+  top: 150px;
 }
 
 .animate {
-    animation: jump 0.4s linear;
+  animation: jump 0.4s linear;
 }
 
 @keyframes jump {
-    0% {
-        top: 150px;
-    }
-    30% {
-        top: 100px;
-    }
-    70% {
-        top: 100px;
-    }
-    100% {
-        top: 150px;
-    }
+  0% {
+    top: 150px;
+  }
+  30% {
+    top: 100px;
+  }
+  70% {
+    top: 100px;
+  }
+  100% {
+    top: 150px;
+  }
 }
 
 #block {
-    background-color: blue;
-    width: 20px;
-    height: 20px;
-    position: relative;
-    top: 130px;
-    left: 500px;
-    animation: block 1s infinite linear;
+  background-color: blue;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  top: 130px;
+  left: 500px;
+  animation: block 1s infinite linear;
 }
 
 @keyframes block {
-    0% {
-        left: 700px
-    }
-    100% {
-        left: -20px
-    }
+  0% {
+    left: 700px;
+  }
+  100% {
+    left: -20px;
+  }
 }
 
 p {
-    text-align: center;
+  text-align: center;
 }
 
-
 .floating-text {
-	background-color: #d4e2ff;
-	border-radius: 10px 10px 0 0;
-	color: rgb(0, 0, 0);
-	font-family: 'Muli';
-	padding: 7px 15px;
-	position: fixed;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
+  background-color: #d4e2ff;
+  border-radius: 10px 10px 0 0;
+  color: rgb(0, 0, 0);
+  font-family: "Muli";
+  padding: 7px 15px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .floating-text a {
-	color: #000000;
-	text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
