@@ -1,73 +1,71 @@
 .container {
-    width: 70%;
-    margin: auto;
-    text-align: center;
+  width: 70%;
+  margin: auto;
+  text-align: center;
 }
 
 .dice {
-    text-align: center;
-    display: inline-block;
+  text-align: center;
+  display: inline-block;
 }
 
 body {
-    background-color: #393E46;
+  background-color: #393e46;
 }
 
 h1 {
-    margin: 30px;
-    font-family: 'Lobster', cursive;
-    text-shadow: 5px 0 #232931;
-    font-size: 8rem;
-    color: #4ECCA3;
+  margin: 30px;
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
 }
 
 p {
-    font-size: 2rem;
-    color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
 }
 
 img {
-    width: 80%;
+  width: 80%;
 }
 
 footer {
-    margin-top: 5%;
-    color: #EEEEEE;
-    text-align: center;
-    font-family: 'Indie Flower', cursive;
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
 }
 
 .throw-btn {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
 .throw {
-    text-decoration: none;
-    padding: 20px;
-    background-color: #4ECCA3;
-    font-family: 'Indie Flower', cursive;
-    font-size: 150%;
-    color: red;
-    border-radius: 20px;
-    border-color: #4ECCA3;
+  text-decoration: none;
+  padding: 20px;
+  background-color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  font-size: 150%;
+  color: red;
+  border-radius: 20px;
+  border-color: #4ecca3;
 }
 
-
-
 .floating-text {
-	background-color: #d4e2ff;
-	border-radius: 10px 10px 0 0;
-	color: rgb(0, 0, 0);
-	font-family: 'Muli';
-	padding: 7px 15px;
-	position: fixed;
-	bottom: 0;
-	left: 50%;
-	transform: translateX(-50%);
+  background-color: #d4e2ff;
+  border-radius: 10px 10px 0 0;
+  color: rgb(0, 0, 0);
+  font-family: "Muli";
+  padding: 7px 15px;
+  position: fixed;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .floating-text a {
-	color: #000000;
-	text-decoration: none;
+  color: #000000;
+  text-decoration: none;
 }
