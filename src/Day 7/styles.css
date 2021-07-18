@@ -40,3 +40,20 @@ span:after {
     z-index: -1;
     -webkit-mask-image: url(https://f.cl.ly/items/1t1C0W3y040g1J172r3h/mask.png);
 }
+
+.floating-text {
+	background-color: #d4e2ff;
+	border-radius: 10px 10px 0 0;
+	color: rgb(0, 0, 0);
+	font-family: 'Muli';
+	padding: 7px 15px;
+	position: fixed;
+	bottom: 0;
+	left: 50%;
+	transform: translateX(-50%);
+}
+
+.floating-text a {
+	color: #000000;
+	text-decoration: none;
+}
