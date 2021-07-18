@@ -10,7 +10,7 @@ body {
     height: 400px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template rows: 1fr 1fr 1fr;
+    grid-template : 1fr 1fr 1fr;
     grid-gap: 2px;
     border-radius: 4px;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 17px 50px;
