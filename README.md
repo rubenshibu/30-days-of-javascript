@@ -1,6 +1,6 @@
 # 30-days-of-javascript
 
-<h1>[live website](https://rubenshibu.github.io/30-days-of-javascript/)</h1>
+<h1>[live website]</h1>(https://rubenshibu.github.io/30-days-of-javascript/)
 <br><br>
 
 30 days 30 projects
