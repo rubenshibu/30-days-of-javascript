@@ -1,8 +1,8 @@
-<h1>Day 1</h1><br>
-<h2>Text to speech Conversion</h2>
+# Day 1 <br>
+## Text to speech Conversion
 
 
-Simple javascrip application which converts text to speech and it speaks back.
+*Simple javascrip application which converts text to speech and it speaks back.*
 
 
 Add any text in the box and then click speak it button!
