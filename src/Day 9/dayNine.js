@@ -34,9 +34,9 @@ function clickEvent() {
   clicks.value++;
 }
 
-function mouseClick() {
-  var e = window.event;
-  console.log(e);
-  clickEvent();
-  return false;
-}
+// function mouseClick() {
+//   var e = window.event;
+//   console.log(e);
+//   clickEvent();
+//   return false;
+// }
